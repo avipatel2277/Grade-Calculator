@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 14px;
+    font-family: sans-serif;
+    background-image: url('calcwallpaper.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 40px;
+}
+
+.container{
+    width: 500px;
+    padding: 20px;
+    border: 2px solid gray;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 12px rgb(151, 150, 150);
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.screen-body-item{
+    padding: 10px;
+}
+
+.course-row{
+    display: grid;
+    grid-template-columns: 1fr 100px 80px;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.course-name, .course-grade, .course-weight{
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.button-row{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.form-button{
+    height: 35px;
+    background-color: rgb(189, 217, 236);
+    border-style: none;
+    padding: 5px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.showdata{
+    font-size: 1.2rem;
+    padding-top: 15px;
+    text-align: center;
+}

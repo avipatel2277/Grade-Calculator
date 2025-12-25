@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Grade Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Student Grade Calculator</h1>
+
+        <div class="screen-body-item">
+            <div class="app">
+
+                <div id="gradeContainer">
+
+                    <div class="course-row">
+                        <input type="text" class="course-name" placeholder="Course Name">
+                        <input type="number" class="course-grade" placeholder="Grade">
+                        <input type="number" class="course-weight" placeholder="Weight" value="1">
+                    </div>
+
+                    <div class="course-row">
+                        <input type="text" class="course-name" placeholder="Course Name">
+                        <input type="number" class="course-grade" placeholder="Grade">
+                        <input type="number" class="course-weight" placeholder="Weight" value="1">
+                    </div>
+
+                    <div class="course-row">
+                        <input type="text" class="course-name" placeholder="Course Name">
+                        <input type="number" class="course-grade" placeholder="Grade">
+                        <input type="number" class="course-weight" placeholder="Weight" value="1">
+                    </div>
+
+                </div>
+
+                <!-- Buttons -->
+                <div class="button-row">
+                    <button class="form-button" id="addCourseBtn">Add Course</button>
+                    <button class="form-button" onclick="calculate()">Show Percentage</button>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="form-group showdata">
+            <p id="showdata"></p>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
