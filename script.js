@@ -1,4 +1,3 @@
-// Add Course Button Logic
 document.getElementById("addCourseBtn").addEventListener("click", () => {
     let container = document.getElementById("gradeContainer");
 
@@ -15,7 +14,6 @@ document.getElementById("addCourseBtn").addEventListener("click", () => {
 });
 
 
-// Main Calculation Function
 const calculate = () => {
     let rows = document.querySelectorAll(".course-row");
 
@@ -55,4 +53,5 @@ const calculate = () => {
     else result += " You have failed.";
 
     document.querySelector("#showdata").innerHTML = result;
+
 };
