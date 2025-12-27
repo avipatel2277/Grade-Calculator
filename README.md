@@ -32,4 +32,4 @@ A dynamic student grade calculator that supports unlimited courses, weighted gra
 
 ## ⭐ Acknowledgements
 
-Created by **Avi** — built for learning, productivity, and clean UI design.
+Cursor AI was used to create some parts of he project.
