@@ -21,7 +21,7 @@ A dynamic student grade calculator that supports unlimited courses, weighted gra
 
 - HTML5  
 - CSS3  
-- JavaScript (ES6)
+- JavaScript
 
 ---
 
